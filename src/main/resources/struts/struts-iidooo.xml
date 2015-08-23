@@ -20,6 +20,12 @@
 		<action name="blogDetail" class="com.iidooo.ido.action.blog.BlogDetailAction" method="init">
 			<result name="success">/page/blog/BlogDetail.jsp</result>
 		</action>
+		<action name="newsList" class="com.iidooo.ido.action.news.NewsListAction" method="init">
+			<result name="success">/page/news/NewsList.jsp</result>
+		</action>
+		<action name="newsDetail" class="com.iidooo.ido.action.news.NewsDetailAction" method="init">
+			<result name="success">/page/news/NewsDetail.jsp</result>
+		</action>
 		<action name="about" class="com.iidooo.ido.action.about.AboutAction" method="init">
 			<result name="success">/page/about/About.jsp</result>
 		</action>

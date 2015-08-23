@@ -130,6 +130,7 @@ a {
 
 /* 底部式样 Start */
 .footer_wrap {
+	clear:both;
     margin-top: 10px;
     text-align: center;
     background-color: RGB(54, 54, 54);
@@ -137,3 +138,9 @@ a {
     padding: 5px;
 }
 /* 底部式样 End */
+
+/* 区块的样式 Start */
+.block {
+	margin-top: 10px;
+}
+/* 区块的样式 End */

@@ -7,21 +7,21 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <jsp:include page="../include/Head.jsp"></jsp:include>
-<link type="text/css" rel="stylesheet" href="/iidooo/css/blog/BlogList.css">
-<cms:metaInfo siteCode="iidooo" channelPath="blogList" />
+<link type="text/css" rel="stylesheet" href="/iidooo/css/news/NewsList.css">
+<cms:metaInfo siteCode="iidooo" channelPath="newsList" />
 </head>
 <body>
 	<form id="form" action="" method="post">
 		<jsp:include page="../include/Top.jsp"></jsp:include>
 		<div class="main_menu_wrap">
-			<cms:channelMenu siteCode="iidooo" channelPath="blogList" />
+			<cms:channelMenu siteCode="iidooo" channelPath="newsList" />
 		</div>
 		<div class="page_content_wrap">
 			<div class="left_page_content_wrap">				
-				<cms:contentListBlock siteCode="iidooo" id="blogList" channelPath="blogList" action="blogDetail.action" isShowDate='true' />
+				<cms:contentListBlock siteCode="iidooo" id="newsList" channelPath="newsList" action="newsDetail.action" isShowDate='true' />
 			</div>
 			<div class="right_page_content_wrap">
-				<cms:channelList siteCode="iidooo" isContainBlank="true" parentPath="blogList" id="blogTypeList" value="${content.channelPath}" onClick="searchByType('channelPath')"/>
+				<cms:channelList siteCode="iidooo" isContainBlank="true" parentPath="newsList" id="newsYearList" value="${content.channelPath}" onClick="searchByType('channelPath')"/>
 			</div>
 		</div>
 		<jsp:include page="../include/Footer.jsp"></jsp:include>		

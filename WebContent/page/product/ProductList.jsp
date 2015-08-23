@@ -7,19 +7,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <jsp:include page="../include/Head.jsp"></jsp:include>
+<link type="text/css" rel="stylesheet" href="/iidooo/css/product/ProductList.css">
 <cms:metaInfo siteCode="iidooo" channelPath="productList" />
-
-<script type="text/javascript">
-	function searchByCountry(productCountry){
-		$("#hidProductCountry").val(productCountry);
-		$("form").submit();
-	}
-	
-	function searchByOrigin(productOrigin){
-		$("#hidProductOrigin").val(productOrigin);
-		$("form").submit();
-	}
-	
+<script type="text/javascript">	
 	function searchByType(productType){
 		$("#hidProductType").val(productType);
 		$("form").submit();
@@ -31,61 +21,17 @@
 	<div class="main_menu_wrap">
 		<cms:channelMenu siteCode="iidooo" channelPath="productList" />
 	</div>
-	
-	<%-- <form id="form" action="productList" method="post">
-		<input id="hidProductCountry" type="hidden" name="product.productCountry" value="${product.productCountry}">
-	    <input id="hidProductOrigin" type="hidden" name="product.productOrigin" value="${product.productOrigin}">
-	    <input id="hidProductType" type="hidden" name="product.channelPath" value="${product.channelPath}">
-	    
-
-	    <div class="page_content_wrap">	    	
-	    	<cms:channelMenu siteCode="inaba" channelPath="productList" />
-	    	<div id="classify" class="block frame">
-		    	<dl>
-		    		<dt>国家：</dt>
-		    		<dd>
-		    			<div>
-		    				<core:dictItemList id="productCountry" value="${product.productCountry}" dictClassCode="DICT_CLASS_INABA_COUNTRY" onClick="searchByCountry('dictItemCode')"/>
-		    			</div>
-		    		</dd>
-		    	</dl>	
-		    	<dl>
-		    		<dt>产地：</dt>
-		    		<dd>
-		    			<div>
-		    				<core:dictItemList id="productOrigin" value="${product.productOrigin}" dictClassCode="DICT_CLASS_INABA_ORIGIN" onClick="searchByOrigin('dictItemCode')"/>
-		    			</div>
-		    		</dd>
-		    	</dl>	
-		    	<dl>
-		    		<dt>分类：</dt>
-		    		<dd>
-		    			<div>		    				
-							<cms:channelList siteCode="inaba" parentPath="productList" id="productList" value="${product.channelPath}" onClick="searchByType('channelPath')"/>
-		    			</div>
-		    		</dd>
-		    	</dl>    	
-	    	</div>
-			<div id="products" class="block">
-				<ul>
-					<s:iterator value="productList" status="st" id="item">	
-					<li class="left">
-						<div>
-							<a href="productDetail.action?content.contentID=${item.contentID }" target="_blank">
-							<img class="image_title" alt="${item.contentTitle}" src="${item.contentImageTitle}">
-							</a>
-						</div>
-						<div class="align_center">
-							<a href="productDetail.action?content.contentID=${item.contentID }" target="_blank">${item.contentTitle}</a>
-						</div>
-					</li>
-					</s:iterator>
-				</ul>
+	<form action="productList"  method="post">
+		<input id="hidProductType" type="hidden" name="content.channelPath" value="${content.channelPath}">
+		<div class="page_content_wrap">
+			<div class="left_page_content_wrap">
+				<cms:contentListBlock id="productServiceList" isShowImage="true" isShowSummary="true" action="productDetail" siteCode="iidooo" channelPath="productList"/>
 			</div>
-			<jsp:include page="../include/Paging.jsp"></jsp:include>
+			<div class="right_page_content_wrap">
+				<cms:channelList siteCode="iidooo" isContainBlank="true" parentPath="productList" id="productTypeList" value="${content.channelPath}" onClick="searchByType('channelPath')"/>
+			</div>
 		</div>
-    </form> --%>
-    
+    </form>
 	<jsp:include page="../include/Footer.jsp"></jsp:include>
 </body>
 </html>
