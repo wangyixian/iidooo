@@ -78,29 +78,63 @@
 	width: 260px;
 }
 
-.block_title {
-	height: 30px;
-	line-height: 30px;
-	border-bottom: 1px solid #CCC;
-	font-size: 18px;
-	color: #0e3094;
+#productList {
+	margin-top: 10px;
 }
 
+#contact {
+	margin-top: 10px;
+}
+
+
 .block_content_item {
-	padding: 5px 0;
+	padding: 10px 0;
 	overflow: hidden;
 	border-bottom: 1px dashed #CCC;
 }
 
-.block_content_item_title {
-	padding-left:20px;
-	float: left;
+#contact .block_content_item_title {
+	padding-left: 20px;
+}
+
+#productList .block_content_item_title {
+	font-size: 14px;
+}
+
+#serviceList .block_content_item_title {
+	font-size: 14px;
+}
+
+#contact .block_content_item_title {
+	padding-left: 10px;
 }
 
 .block_content_item_date {
 	float: right;
 }
 
-#contact .block_content_item_title{
-	padding-left:10px;
+/* 我们的服务展示图片 */
+.block_content_item_image {
+	float: left;
+	width: 200px;
+	height: 150px;
+}
+
+.block_content_item_image  img {
+	width: 200px;
+	height: 150px;
+}
+
+.block_content_item_text{
+	width: 480px;
+	float: right;
+}
+
+.block_content_item_summary{	
+	padding: 10px 0;
+}
+
+#contact .block_content_item {
+	padding: 5px 0;
+	overflow: hidden;
 }

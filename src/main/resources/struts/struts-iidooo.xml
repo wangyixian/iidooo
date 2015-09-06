@@ -5,14 +5,17 @@
 
 <struts>
 	<package name="iidooo" extends="basic">
-		<action name="productList" class="com.iidooo.ido.action.product.ProductListAction" method="init">
-			<result name="success">/page/product/ProductList.jsp</result>
+		<action name="productList" class="com.iidooo.ido.action.product.ProductDetailAction" method="init">
+			<result name="success">/page/product/ProductDetail.jsp</result>
 		</action>
 		<action name="productDetail" class="com.iidooo.ido.action.product.ProductDetailAction" method="init">
 			<result name="success">/page/product/ProductDetail.jsp</result>
 		</action>
-		<action name="serviceList" class="com.iidooo.ido.action.service.ServiceListAction" method="init">
-			<result name="success">/page/service/ServiceList.jsp</result>
+		<action name="serviceList" class="com.iidooo.ido.action.service.ServiceDetailAction" method="init">
+			<result name="success">/page/service/ServiceDetail.jsp</result>
+		</action>
+		<action name="serviceDetail" class="com.iidooo.ido.action.service.ServiceDetailAction" method="init">
+			<result name="success">/page/service/ServiceDetail.jsp</result>
 		</action>
 		<action name="blogList" class="com.iidooo.ido.action.blog.BlogListAction" method="init">
 			<result name="success">/page/blog/BlogList.jsp</result>
@@ -29,7 +32,7 @@
 		<action name="about" class="com.iidooo.ido.action.about.AboutAction" method="init">
 			<result name="success">/page/about/About.jsp</result>
 		</action>
-		<action name="contact" class="com.iidooo.ido.action.contact.ContactAction" method="init">
+		<!-- <action name="contact" class="com.iidooo.ido.action.contact.ContactAction" method="init">
 			<result name="success">/page/contact/Contact.jsp</result>
 		</action>
 		<action name="join" class="com.iidooo.ido.action.join.JoinAction" method="init">
@@ -37,6 +40,6 @@
 		</action>
 		<action name="recruit" class="com.iidooo.ido.action.recruit.RecruitAction" method="init">
 			<result name="success">/page/recruit/Recruit.jsp</result>
-		</action>
+		</action> -->
 	</package>
 </struts>

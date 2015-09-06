@@ -10,7 +10,7 @@
 	width: 700px;
 }
 
-#newsYearList li {
+#productList li{
 	line-height: 45px;
 	border-bottom: 1px dashed #dedede;
 	background: url(../../img/arrow_icon.gif) no-repeat 30px 15px;
@@ -23,27 +23,4 @@
 	/* border-left: 1px solid #dedede;
 	border-right: 1px solid #dedede; */
 	width: 247px;
-}
-
-.block_title {
-	height: 30px;
-	line-height: 30px;
-	border-bottom: 1px solid #CCC;
-	font-size: 18px;
-	color: #0e3094;
-}
-
-#newsList .block_content_item {
-	padding: 10px 0;
-	overflow: hidden;
-	border-bottom: 1px dashed #CCC;
-}
-
-#newsList .block_content_item_title {
-	padding-left: 20px;
-	float: left;
-}
-
-#newsList .block_content_item_date {
-	float: right;
 }

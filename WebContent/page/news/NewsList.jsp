@@ -18,10 +18,10 @@
 		</div>
 		<div class="page_content_wrap">
 			<div class="left_page_content_wrap">				
-				<cms:contentListBlock siteCode="iidooo" id="newsList" channelPath="newsList" action="newsDetail.action" isShowDate='true' />
+				<cms:channelListBlock siteCode="iidooo" isContainBlank="true" parentPath="newsList" id="newsYearList" value="${content.channelPath}" onClick="searchByType('channelPath')" title="分类"/>
 			</div>
 			<div class="right_page_content_wrap">
-				<cms:channelList siteCode="iidooo" isContainBlank="true" parentPath="newsList" id="newsYearList" value="${content.channelPath}" onClick="searchByType('channelPath')"/>
+				<cms:contentListBlock siteCode="iidooo" id="newsList" channelPath="newsList" action="newsDetail" isShowDate='true' title="新闻资讯"/>
 			</div>
 		</div>
 		<jsp:include page="../include/Footer.jsp"></jsp:include>		

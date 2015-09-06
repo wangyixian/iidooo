@@ -10,17 +10,10 @@ public class ServiceListAction extends SiteSupportAction {
      */
     private static final long serialVersionUID = 1L;
 
-    private static final Logger logger = Logger.getLogger(ServiceListAction.class);
+    private static final Logger logger = Logger.getLogger(ServiceDetailAction.class);
 
     public String init() {
         try {
-//            PageDto page = this.getPage();
-//            if (page == null) {
-//                page = new PageDto();
-//                page.setPageSize(12);
-//                this.setPage(page);
-//            }
-//            this.sendGetProductListAPI(IdoConstant.SITE_CODE, this.getActionName(), this.getProduct());
             return SUCCESS;
         } catch (Exception e) {
             e.printStackTrace();
@@ -30,3 +23,4 @@ public class ServiceListAction extends SiteSupportAction {
     }
 
 }
+

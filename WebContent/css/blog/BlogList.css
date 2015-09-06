@@ -2,17 +2,17 @@
 
 .left_page_content_wrap {
 	float: left;
-	width: 700px;
+	width: 270px;
 }
 
 .right_page_content_wrap {
 	float: right;
-	width: 260px;
+	width: 700px;
 }
 
 #blogTypeList li {
 	line-height: 45px;
-	border-bottom: 1px solid #dedede;
+	border-bottom: 1px dashed #dedede;
 	background: url(../../img/arrow_icon.gif) no-repeat 30px 15px;
 	text-indent: 55px;
 	font-size: 14px;
@@ -26,13 +26,13 @@
 }
 
 #blogList .block_content_item {
-	margin: 0 20px;
-	padding: 5px 0;
+	padding: 10px 0;
 	overflow: hidden;
 	border-bottom: 1px dashed #CCC;
 }
 
 #blogList .block_content_item_title {
+	padding-left: 20px;
 	float: left;
 }
 
