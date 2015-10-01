@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <jsp:include page="../include/Head.jsp"></jsp:include>
-<link type="text/css" rel="stylesheet" href="/inaba/css/join/Join.css">
+<link type="text/css" rel="stylesheet" href="${SITE_URL}/css/join/Join.css">
 <cms:metaInfo siteCode="inaba" channelPath="join" />
 </head>
 <body>
@@ -22,7 +22,7 @@
 				<hr class="hr"></hr>
 				<hr size="2" width="100%">
 				<div>
-					<img class="logo_square" src="/inaba/img/logo_square.jpg"><br>
+					<img class="logo_square" src="${SITE_URL}/img/logo_square.jpg"><br>
 				</div>
 			</div>
 			<div class="content">

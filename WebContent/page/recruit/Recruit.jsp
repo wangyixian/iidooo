@@ -20,7 +20,7 @@
 				<hr class="hr"></hr>
 				<hr size="2" width="100%">
 				<div>
-					<img class="logo_square" src="/inaba/img/logo_square.jpg"><br>
+					<img class="logo_square" src="${SITE_URL}/img/logo_square.jpg"><br>
 				</div>
 			</div>
 			<div class="content">

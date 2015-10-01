@@ -67,7 +67,7 @@
 	</listener>
 	<context-param>
 		<param-name>CMS_URL</param-name>
-		<param-value>http://localhost:8080/cms</param-value>
+		<param-value>http://www.iidooo.com/cms</param-value>
 	</context-param>
 	
 	<session-config>

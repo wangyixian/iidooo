@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <jsp:include page="include/Head.jsp"></jsp:include>
-<link type="text/css" rel="stylesheet" href="/iidooo/css/Index.css">
+<link type="text/css" rel="stylesheet" href="${SITE_URL}/css/Index.css">
 <cms:metaInfo siteCode="iidooo" channelPath="index"/>
 </head>
 <body>
@@ -18,17 +18,17 @@
 			<ul class="slide-pic">
 				<li style="display: list-item;" class="current">
 					<a href="#">
-						<img alt="网站建设" src="/iidooo/img/index/slide_web.png">
+						<img alt="网站建设" src="${SITE_URL}/img/index/slide_web.png">
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img alt="软件定制"	src="/iidooo/img/index/slide_customize.png">
+						<img alt="软件定制"	src="${SITE_URL}/img/index/slide_customize.png">
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img alt="技术支持" src="/iidooo/img/index/slide_support.png">
+						<img alt="技术支持" src="${SITE_URL}/img/index/slide_support.png">
 					</a>
 				</li>
 			</ul>
@@ -68,7 +68,7 @@
 						<span>13816867453</span>
 					</div>					
 					<div class="block_content_item">
-						<img alt="微信公众号" src="/iidooo/img/index/wx_small.jpg">
+						<img alt="微信公众号" src="${SITE_URL}/img/index/wx_small.jpg">
 					</div>
 				</div>
 			</div>

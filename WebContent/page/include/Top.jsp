@@ -8,6 +8,6 @@
 </div> -->
 <div class="page_content_wrap">
 	<div class="top_content_logo">
-		<img alt="轶度网络科技有限公司" src="/iidooo/img/logo.png">
+		<img alt="轶度网络科技有限公司" src="${SITE_URL}/img/logo.png">
 	</div>
 </div>

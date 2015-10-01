@@ -1,5 +1,7 @@
 package com.iidooo.ido.action.about;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.apache.log4j.Logger;
 
 import com.iidooo.cms.api.action.SiteSupportAction;
@@ -17,6 +19,7 @@ public class AboutAction extends SiteSupportAction {
 
     public String init() {
         try {
+            
             ContentDto content = this.getContent();
             if (content == null || content.getContentID() == null) {
                 this.sendGetContentAPI(IdoConstant.SITE_CODE, this.getActionName());

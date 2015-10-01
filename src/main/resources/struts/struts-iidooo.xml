@@ -4,7 +4,7 @@
     "http://struts.apache.org/dtds/struts-2.0.dtd">
 
 <struts>
-	<package name="iidooo" extends="basic">
+	<package name="iidooo" extends="iidooo-basic">
 		<action name="productList" class="com.iidooo.ido.action.product.ProductDetailAction" method="init">
 			<result name="success">/page/product/ProductDetail.jsp</result>
 		</action>

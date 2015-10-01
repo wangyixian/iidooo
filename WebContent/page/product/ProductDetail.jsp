@@ -7,7 +7,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <jsp:include page="../include/Head.jsp"></jsp:include>
-<link type="text/css" rel="stylesheet" href="/iidooo/css/product/ProductDetail.css">
+<link type="text/css" rel="stylesheet" href="${SITE_URL}/css/product/ProductDetail.css">
 <cms:metaInfo siteCode="iidooo" channelPath="productDetail" />
 </head>
 <body>

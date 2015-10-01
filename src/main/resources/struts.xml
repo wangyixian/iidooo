@@ -8,7 +8,7 @@
 	<constant name="struts.ui.theme" value="simple" />
 	<constant name="struts.multipart.maxSize" value="102400000" />
 
-	<package name="basic" extends="struts-default" abstract="true">
+	<package name="iidooo-basic" extends="struts-default" abstract="true">
 	
 		<interceptors>
 			<interceptor name="actionInterceptor" class="com.iidooo.core.interceptor.ActionInterceptor"></interceptor>

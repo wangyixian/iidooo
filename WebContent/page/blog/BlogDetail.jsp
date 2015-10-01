@@ -8,7 +8,7 @@
 <meta name="keywords" content="${content.metaKeywords}" >
 <meta name="description" content="${content.metaDescription}">
 <jsp:include page="../include/Head.jsp"></jsp:include>
-<link type="text/css" rel="stylesheet" href="/inaba/css/article/ArticleDetail.css">
+<link type="text/css" rel="stylesheet" href="${SITE_URL}/css/article/ArticleDetail.css">
 </head>
 <body>
 	<jsp:include page="../include/Top.jsp"></jsp:include>
