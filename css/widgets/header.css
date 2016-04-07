@@ -16,7 +16,7 @@
     height: 46px;
     line-height: 46px;
     border-top: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
+    border-bottom: 1px solid #040404;
     background-color: #fbfbfb;
 }
 
@@ -27,7 +27,8 @@
 .navbar-nav li {
     width: 100px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
     float: left;
     margin: 0px;
     padding: 0px;
@@ -41,12 +42,12 @@
 }
 
 .navbar-nav a:hover{
-    background-color: #002a80;
+    background-color: #040404;
     color: #f7f7f7;
 }
 
 .navbar-nav .active a{
-    background-color: #002a80;
+    background-color: #040404;
     color: #f7f7f7;
 }
 

@@ -54,6 +54,11 @@ td {
     padding: 35px 0;
 }
 
+.wrap_cyan{
+    background-color: #EBFDFF;
+    padding: 35px 0;
+}
+
 .container {
     width: 960px;
     margin: 0 auto;

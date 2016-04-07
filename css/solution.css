@@ -1,0 +1,23 @@
+.banner {
+    height: 400px;
+    text-align: center;
+    background-color: #040404;
+}
+
+.content_title{
+    text-align: center;
+    color: #2b2b2b;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 6%;
+}
+
+.content_responsive_design{
+    text-align: center;
+    margin-top: 6%;
+}
+
+.content_app{
+    text-align: center;
+}
