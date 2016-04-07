@@ -49,3 +49,12 @@
     background-color: #002a80;
     color: #f7f7f7;
 }
+
+.brand{
+    height: 100px;
+    line-height: 100px;
+}
+
+.brand img{
+    margin: 15px 0;
+}

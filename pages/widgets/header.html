@@ -6,19 +6,25 @@
 <div class="header-middle">
     <div class="container">
         <div class="brand">
-            <img src="../img/logo_title.png" alt="上海轶度网络科技有限公司">
+            <img src="../img/logo_title_70.png" alt="上海轶度网络科技有限公司">
         </div>
     </div>
 </div>
 <div class="header-nav">
     <div class="container">
         <div class="navbar">
-            <ul class="navbar-nav">
-                <li class="active"><a href="##">网站首页</a></li>
-                <li><a href="##">产品介绍</a></li>
-                <li><a href="##">经典案例</a></li>
-                <li><a href="##">关于我们</a></li>
+            <ul id="navbar" class="navbar-nav">
+                <li id="index"><a href="index.html">轶度首页</a></li>
+                <li id="product"><a href="product.html">产品介绍</a></li>
+                <li id="solution"><a href="solution.html">解决方案</a></li>
+                <li id="case"><a href="case.html">经典案例</a></li>
+                <li id="news"><a href="news.html">动态资讯</a></li>
+                <li id="about"><a href="about.html">关于我们</a></li>
             </ul>
         </div>
     </div>
 </div>
+<script>
+        var activeLi = $('#navbar > ' + '#' + activeNavItem);
+        activeLi.addClass('active');
+</script>
