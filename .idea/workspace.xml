@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37d727a5-3f0c-497e-bc67-c88ceb846b81" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/banner_about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/case.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/news.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/product.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/solution.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/widgets/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/widgets/header.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/logo_title_70.png" afterPath="$PROJECT_DIR$/img/logo_title.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/bootstrap/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/js/libs/bootstrap/css/bootstrap-responsive.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/bootstrap/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/js/libs/bootstrap/css/bootstrap-responsive.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/js/libs/bootstrap/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/js/libs/bootstrap/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/bootstrap/img/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/js/libs/bootstrap/img/glyphicons-halflings-white.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/bootstrap/img/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/js/libs/bootstrap/img/glyphicons-halflings.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/js/libs/bootstrap/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/libs/bootstrap/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/jquery/js/jquery-1.9.1.js" afterPath="$PROJECT_DIR$/js/libs/jquery/js/jquery-1.9.1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/jquery/js/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/js/libs/jquery/js/jquery-1.9.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/jquery/js/jquery.slides.min.js" afterPath="$PROJECT_DIR$/js/libs/jquery/js/jquery.slides.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/organization.png" afterPath="$PROJECT_DIR$/img/organization.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/about.css" afterPath="$PROJECT_DIR$/css/about.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common.css" afterPath="$PROJECT_DIR$/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/widgets/footer.js" afterPath="$PROJECT_DIR$/js/widgets/footer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/widgets/header.css" afterPath="$PROJECT_DIR$/css/widgets/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/widgets/header.js" afterPath="$PROJECT_DIR$/js/widgets/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/solution.css" afterPath="$PROJECT_DIR$/css/solution.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solution.html" afterPath="$PROJECT_DIR$/solution.html" />
     </list>
     <ignored path="iidooo-homepage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +22,28 @@
     <favorites_list name="iidooo-homepage" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="solution.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/solution.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.8877087">
+              <caret line="99" column="6" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="case.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.125">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,10 +96,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/product.html" />
-        <option value="$PROJECT_DIR$/solution.html" />
         <option value="$PROJECT_DIR$/js/widgets/header.js" />
         <option value="$PROJECT_DIR$/js/widgets/footer.js" />
         <option value="$PROJECT_DIR$/js/common.js" />
+        <option value="$PROJECT_DIR$/solution.html" />
       </list>
     </option>
   </component>
@@ -209,6 +202,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iidooo-homepage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iidooo-homepage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -635,14 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.125">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.5">
@@ -663,14 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.125">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.5">
-          <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -708,6 +699,22 @@
           <folding>
             <element signature="e#0#38#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.125">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8877087">
+          <caret line="99" column="6" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
