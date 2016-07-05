@@ -1,4 +1,111 @@
-.slides img{
+#slide1{
+    background-image: url('../img/index/bg1.jpg');
+    color: #ffffff;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#slide2{
+    background-color: #1abc9c;
+    color: #e4e6e5;
+    padding-top: 90px;
+}
+
+#slide3{
+    background-image: url('../img/index/bg4.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding-top: 90px;
+    padding-bottom: 65px;
+    text-align: center;
     width: 100%;
-    height: 400px;
+    height: 700px;
+}
+
+#slide4{
+    background-image: url('../img/index/bg3.png');
+    background-position: center 250px;
+    background-repeat: no-repeat;
+}
+
+.slide {
+    padding-bottom: 65px;
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+    height: 800px;
+}
+
+.slide-sm{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+
+
+.slide-title{
+    font-size: 54px;
+    padding-top: 50px;
+}
+
+.slide-title-sm{
+    font-size: 45px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.slide-sm-title{
+    font-size: 32px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.slide-subtitle{
+    font-size: 24px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.slide-sm-subtitle{
+    font-size: 24px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#home-row-2 {
+    font-size: 25px;
+}
+
+#home-row-2 .col-12 {
+    height: 232px;
+    padding-top: 30px;
+}
+
+#home-row-2 .col-12 .home-hover {
+    height: 166px;
+    overflow: hidden;
+    padding-top: 26px;
+    transition: all ease-in .5s;
+}
+
+#home-row-2 .col-12 .home-hover:hover {
+    cursor: pointer;
+    height: 166px;
+    padding-top: 0;
+}
+
+.hr {
+    background-color: #e4e6e5;
+    height: 5px;
+    margin: 0 auto;
+    width: 33%;
 }
